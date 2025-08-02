@@ -29,6 +29,20 @@ label {
   margin-bottom: 10px;
 }
 
+
+.option-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option-row input[type="radio"] {
+  margin-right: 10px;
+}
+
+.option-row label {
+  margin: 0;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .col-md-8 {
@@ -43,3 +57,6 @@ label {
     font-size: 20px;
   }
 }
+
+
+
