@@ -21,23 +21,32 @@
         <div id="quizdiv">
           <h2 id="question">Question</h2>
           <ul class="list-unstyled">
-            <li>
-              <input type="radio" class="answer" id="a" name="answer" />
-              <label for="a" id="a_value">Option A</label>
-            </li>
-            <li>
-              <input type="radio" class="answer" id="b" name="answer" />
-              <label for="b" id="b_value">Option B</label>
-            </li>
-            <li>
-              <input type="radio" class="answer" id="c" name="answer" />
-              <label for="c" id="c_value">Option C</label>
-            </li>
-            <li>
-              <input type="radio" class="answer" id="d" name="answer" />
-              <label for="d" id="d_value">Option D</label>
-            </li>
-          </ul>
+  <li>
+    <div class="option-row">
+      <input type="radio" class="answer" id="a" name="answer" />
+      <label for="a" id="a_value">Option A</label>
+    </div>
+  </li>
+  <li>
+    <div class="option-row">
+      <input type="radio" class="answer" id="b" name="answer" />
+      <label for="b" id="b_value">Option B</label>
+    </div>
+  </li>
+  <li>
+    <div class="option-row">
+      <input type="radio" class="answer" id="c" name="answer" />
+      <label for="c" id="c_value">Option C</label>
+    </div>
+  </li>
+  <li>
+    <div class="option-row">
+      <input type="radio" class="answer" id="d" name="answer" />
+      <label for="d" id="d_value">Option D</label>
+    </div>
+  </li>
+</ul>
+
           <div class="d-grid gap-2">
             <button class="btn btn-primary mt-3" id="submit">SUBMIT</button>
           </div>
@@ -49,3 +58,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
